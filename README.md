@@ -1,5 +1,5 @@
 # Tic-Tac-Toe-Datasets
-- boards.csv
+1. boards.csv
 + id         
 // Unique ID
 + cells      
@@ -21,10 +21,10 @@
 + level      
 // Game move (0–9)
 
-- tic-tac-toe.csv
+2. tic-tac-toe.csv
 + This datasets encodes the complete set of possible board configurations at the end of tic-tac-toe games, where "x" is assumed to have played first.  The target concept is "win for x" (i.e., true when "x" has one of 8 possible ways to create a "three-in-a-row").  
 
-- tictactoe_games.csv
+3. tictactoe_games.csv
 This dataset contains 255,168 records of Tic-Tac-Toe games. The dataset is structured to represent every possible game sequence where:
 + Player X always starts first.
 + The game continues until there is a winner or a draw.
